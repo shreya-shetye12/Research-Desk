@@ -1,0 +1,402 @@
+{
+  "target20_margin": {
+    "operand_ids": [
+      "target_2020_oi",
+      "target_2020_revenue"
+    ],
+    "result": 6.989023204112825,
+    "qualification_required": false
+  },
+  "target20_sales_margin": {
+    "operand_ids": [
+      "target_2020_oi",
+      "target_2020_sales"
+    ],
+    "result": 7.076839826839827,
+    "qualification_required": false
+  },
+  "target19_margin": {
+    "operand_ids": [
+      "target_2019_oi",
+      "target_2019_revenue"
+    ],
+    "result": 5.9632322818517,
+    "qualification_required": false
+  },
+  "target20_growth": {
+    "operand_ids": [
+      "target_2020_revenue",
+      "target_2019_revenue"
+    ],
+    "result": 19.77801106104056,
+    "qualification_required": false
+  },
+  "target20_growth_sales": {
+    "operand_ids": [
+      "target_2020_sales",
+      "target_2019_sales"
+    ],
+    "result": 19.797744068455852,
+    "qualification_required": false
+  },
+  "costco18_margin": {
+    "operand_ids": [
+      "costco_2018_oi",
+      "costco_2018_revenue"
+    ],
+    "result": 3.164378143188111,
+    "qualification_required": false
+  },
+  "costco18_growth": {
+    "operand_ids": [
+      "costco_2018_sales",
+      "costco_2017_sales"
+    ],
+    "result": 9.718479535871667,
+    "qualification_required": false
+  },
+  "costco16_imported_annual_margin": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_0",
+      "document_95fd80bd6614164c19_cell_1"
+    ],
+    "result": 3.0930179667955424,
+    "qualification_required": false
+  },
+  "costco15_imported_annual_margin": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_4",
+      "document_95fd80bd6614164c19_cell_5"
+    ],
+    "result": 3.11878759713939,
+    "qualification_required": false
+  },
+  "costco16_imported_growth": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_1",
+      "document_95fd80bd6614164c19_cell_5"
+    ],
+    "result": 2.168693362249245,
+    "qualification_required": false
+  },
+  "costco16_imported_sales_margin": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_0",
+      "document_95fd80bd6614164c19_cell_8"
+    ],
+    "result": 3.1635264014887183,
+    "qualification_required": false
+  },
+  "costco16_imported_quarter_margin": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_2",
+      "document_95fd80bd6614164c19_cell_3"
+    ],
+    "result": 3.257658643326039,
+    "qualification_required": false
+  },
+  "dev_9c0165df7226": {
+    "operand_ids": [
+      "costco_2017_oi",
+      "costco_2017_revenue"
+    ],
+    "result": 3.1862042239875996,
+    "qualification_required": false
+  },
+  "dev_edfdd2350a46": {
+    "operand_ids": [
+      "costco_2018_revenue",
+      "costco_2017_revenue"
+    ],
+    "result": 9.727572175934897,
+    "qualification_required": false
+  },
+  "dev_ca6678610d46": {
+    "operand_ids": [
+      "costco_2017_oi",
+      "costco_2017_sales"
+    ],
+    "result": 3.258250641980788,
+    "qualification_required": false
+  },
+  "dev_ca52f44ebbc3": {
+    "operand_ids": [
+      "costco_2018_oi",
+      "costco_2018_sales"
+    ],
+    "result": 3.236199199618591,
+    "qualification_required": false
+  },
+  "dev_4caaef22d81e": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_4",
+      "document_95fd80bd6614164c19_cell_9"
+    ],
+    "result": 3.1882884943606706,
+    "qualification_required": false
+  },
+  "dev_7603c926312a": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_8",
+      "document_95fd80bd6614164c19_cell_9"
+    ],
+    "result": 2.1176077279045624,
+    "qualification_required": false
+  },
+  "dev_b621036e1fde": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_6",
+      "document_95fd80bd6614164c19_cell_7"
+    ],
+    "result": 3.231035832075577,
+    "qualification_required": false
+  },
+  "dev_6dd7d9c89399": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_3",
+      "document_95fd80bd6614164c19_cell_7"
+    ],
+    "result": 2.185700709933479,
+    "qualification_required": false
+  },
+  "dev_0f1a12849ee2": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_6",
+      "document_95fd80bd6614164c19_cell_11"
+    ],
+    "result": 3.303517846426428,
+    "qualification_required": false
+  },
+  "dev_ef2f9200e05f": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_2",
+      "document_95fd80bd6614164c19_cell_10"
+    ],
+    "result": 3.3335199283475148,
+    "qualification_required": false
+  },
+  "dev_1cf846e076ea": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_10",
+      "document_95fd80bd6614164c19_cell_11"
+    ],
+    "result": 2.1004200840168035,
+    "qualification_required": false
+  },
+  "dev_40b371d26b07": {
+    "operand_ids": [
+      "target_2018_oi",
+      "target_2018_revenue"
+    ],
+    "result": 5.454111152396624,
+    "qualification_required": false
+  },
+  "dev_3a589e206286": {
+    "operand_ids": [
+      "target_2019_revenue",
+      "target_2018_revenue"
+    ],
+    "result": 3.65730665109613,
+    "qualification_required": false
+  },
+  "dev_083390766409": {
+    "operand_ids": [
+      "target_2020_revenue",
+      "target_2018_revenue"
+    ],
+    "result": 24.158660226126653,
+    "qualification_required": false
+  },
+  "dev_8bc6cea67352": {
+    "operand_ids": [
+      "target_2018_oi",
+      "target_2018_sales"
+    ],
+    "result": 5.521744387570029,
+    "qualification_required": false
+  },
+  "dev_87fbb843285e": {
+    "operand_ids": [
+      "target_2019_oi",
+      "target_2019_sales"
+    ],
+    "result": 6.039154673927135,
+    "qualification_required": false
+  },
+  "dev_e114e459833b": {
+    "operand_ids": [
+      "target_2019_sales",
+      "target_2018_sales"
+    ],
+    "result": 3.6233928499455885,
+    "qualification_required": false
+  },
+  "dev_2626083d5b7b": {
+    "operand_ids": [
+      "target_2020_sales",
+      "target_2018_sales"
+    ],
+    "result": 24.1384869614284,
+    "qualification_required": false
+  },
+  "costco18_margin__row_order": {
+    "operand_ids": [
+      "costco_2018_oi",
+      "costco_2018_revenue"
+    ],
+    "result": 3.164378143188111,
+    "qualification_required": false
+  },
+  "costco16_imported_annual_margin__opaque_ids": {
+    "operand_ids": [
+      "row_8fb1ac13102d",
+      "row_ecde51bac728"
+    ],
+    "result": 3.0930179667955424,
+    "qualification_required": false
+  },
+  "target20_margin__row_order": {
+    "operand_ids": [
+      "target_2020_oi",
+      "target_2020_revenue"
+    ],
+    "result": 6.989023204112825,
+    "qualification_required": false
+  },
+  "costco18_growth__opaque_ids": {
+    "operand_ids": [
+      "row_2281f5435162",
+      "row_259b8989e56a"
+    ],
+    "result": 9.718479535871667,
+    "qualification_required": false
+  },
+  "costco15_imported_annual_margin__row_order": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_4",
+      "document_95fd80bd6614164c19_cell_5"
+    ],
+    "result": 3.11878759713939,
+    "qualification_required": false
+  },
+  "target20_sales_margin__opaque_ids": {
+    "operand_ids": [
+      "row_790b04e65b60",
+      "row_f8997e12f531"
+    ],
+    "result": 7.076839826839827,
+    "qualification_required": false
+  },
+  "dev_9c0165df7226__row_order": {
+    "operand_ids": [
+      "costco_2017_oi",
+      "costco_2017_revenue"
+    ],
+    "result": 3.1862042239875996,
+    "qualification_required": false
+  },
+  "costco16_imported_growth__opaque_ids": {
+    "operand_ids": [
+      "row_4bab90aaafcd",
+      "row_fc01b8bbb281"
+    ],
+    "result": 2.168693362249245,
+    "qualification_required": false
+  },
+  "target19_margin__row_order": {
+    "operand_ids": [
+      "target_2019_oi",
+      "target_2019_revenue"
+    ],
+    "result": 5.9632322818517,
+    "qualification_required": false
+  },
+  "dev_edfdd2350a46__opaque_ids": {
+    "operand_ids": [
+      "row_ae3b52d44830",
+      "row_c51c461f711f"
+    ],
+    "result": 9.727572175934897,
+    "qualification_required": false
+  },
+  "costco16_imported_sales_margin__row_order": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_0",
+      "document_95fd80bd6614164c19_cell_8"
+    ],
+    "result": 3.1635264014887183,
+    "qualification_required": false
+  },
+  "target20_growth__opaque_ids": {
+    "operand_ids": [
+      "row_0fe6f0e9d736",
+      "row_f9b844a62d43"
+    ],
+    "result": 19.77801106104056,
+    "qualification_required": false
+  },
+  "dev_ca6678610d46__row_order": {
+    "operand_ids": [
+      "costco_2017_oi",
+      "costco_2017_sales"
+    ],
+    "result": 3.258250641980788,
+    "qualification_required": false
+  },
+  "costco16_imported_quarter_margin__opaque_ids": {
+    "operand_ids": [
+      "row_9221a70a16cb",
+      "row_ed64d35de30c"
+    ],
+    "result": 3.257658643326039,
+    "qualification_required": false
+  },
+  "target20_growth_sales__row_order": {
+    "operand_ids": [
+      "target_2020_sales",
+      "target_2019_sales"
+    ],
+    "result": 19.797744068455852,
+    "qualification_required": false
+  },
+  "dev_ca52f44ebbc3__opaque_ids": {
+    "operand_ids": [
+      "row_2e56f2257ca3",
+      "row_4b72bc9963f9"
+    ],
+    "result": 3.236199199618591,
+    "qualification_required": false
+  },
+  "dev_4caaef22d81e__row_order": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_4",
+      "document_95fd80bd6614164c19_cell_9"
+    ],
+    "result": 3.1882884943606706,
+    "qualification_required": false
+  },
+  "dev_40b371d26b07__opaque_ids": {
+    "operand_ids": [
+      "row_6407a1797c12",
+      "row_34c2c5baa7db"
+    ],
+    "result": 5.454111152396624,
+    "qualification_required": false
+  },
+  "dev_7603c926312a__row_order": {
+    "operand_ids": [
+      "document_95fd80bd6614164c19_cell_8",
+      "document_95fd80bd6614164c19_cell_9"
+    ],
+    "result": 2.1176077279045624,
+    "qualification_required": false
+  },
+  "dev_3a589e206286__opaque_ids": {
+    "operand_ids": [
+      "row_1801afd94cf1",
+      "row_e8ab1de0684a"
+    ],
+    "result": 3.65730665109613,
+    "qualification_required": false
+  }
+}

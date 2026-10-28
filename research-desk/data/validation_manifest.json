@@ -1,0 +1,209 @@
+{
+  "cases": {
+    "target20_margin": {
+      "category": "original",
+      "parent": "target20_margin"
+    },
+    "target20_sales_margin": {
+      "category": "original",
+      "parent": "target20_sales_margin"
+    },
+    "target19_margin": {
+      "category": "original",
+      "parent": "target19_margin"
+    },
+    "target20_growth": {
+      "category": "original",
+      "parent": "target20_growth"
+    },
+    "target20_growth_sales": {
+      "category": "original",
+      "parent": "target20_growth_sales"
+    },
+    "costco18_margin": {
+      "category": "original",
+      "parent": "costco18_margin"
+    },
+    "costco18_growth": {
+      "category": "original",
+      "parent": "costco18_growth"
+    },
+    "costco16_imported_annual_margin": {
+      "category": "original",
+      "parent": "costco16_imported_annual_margin"
+    },
+    "costco15_imported_annual_margin": {
+      "category": "original",
+      "parent": "costco15_imported_annual_margin"
+    },
+    "costco16_imported_growth": {
+      "category": "original",
+      "parent": "costco16_imported_growth"
+    },
+    "costco16_imported_sales_margin": {
+      "category": "original",
+      "parent": "costco16_imported_sales_margin"
+    },
+    "costco16_imported_quarter_margin": {
+      "category": "original",
+      "parent": "costco16_imported_quarter_margin"
+    },
+    "dev_9c0165df7226": {
+      "category": "additional_calculation",
+      "parent": "dev_9c0165df7226"
+    },
+    "dev_edfdd2350a46": {
+      "category": "additional_calculation",
+      "parent": "dev_edfdd2350a46"
+    },
+    "dev_ca6678610d46": {
+      "category": "additional_calculation",
+      "parent": "dev_ca6678610d46"
+    },
+    "dev_ca52f44ebbc3": {
+      "category": "additional_calculation",
+      "parent": "dev_ca52f44ebbc3"
+    },
+    "dev_4caaef22d81e": {
+      "category": "additional_calculation",
+      "parent": "dev_4caaef22d81e"
+    },
+    "dev_7603c926312a": {
+      "category": "additional_calculation",
+      "parent": "dev_7603c926312a"
+    },
+    "dev_b621036e1fde": {
+      "category": "additional_calculation",
+      "parent": "dev_b621036e1fde"
+    },
+    "dev_6dd7d9c89399": {
+      "category": "additional_calculation",
+      "parent": "dev_6dd7d9c89399"
+    },
+    "dev_0f1a12849ee2": {
+      "category": "additional_calculation",
+      "parent": "dev_0f1a12849ee2"
+    },
+    "dev_ef2f9200e05f": {
+      "category": "additional_calculation",
+      "parent": "dev_ef2f9200e05f"
+    },
+    "dev_1cf846e076ea": {
+      "category": "additional_calculation",
+      "parent": "dev_1cf846e076ea"
+    },
+    "dev_40b371d26b07": {
+      "category": "additional_calculation",
+      "parent": "dev_40b371d26b07"
+    },
+    "dev_3a589e206286": {
+      "category": "additional_calculation",
+      "parent": "dev_3a589e206286"
+    },
+    "dev_083390766409": {
+      "category": "additional_calculation",
+      "parent": "dev_083390766409"
+    },
+    "dev_8bc6cea67352": {
+      "category": "additional_calculation",
+      "parent": "dev_8bc6cea67352"
+    },
+    "dev_87fbb843285e": {
+      "category": "additional_calculation",
+      "parent": "dev_87fbb843285e"
+    },
+    "dev_e114e459833b": {
+      "category": "additional_calculation",
+      "parent": "dev_e114e459833b"
+    },
+    "dev_2626083d5b7b": {
+      "category": "additional_calculation",
+      "parent": "dev_2626083d5b7b"
+    },
+    "costco18_margin__row_order": {
+      "category": "row_order",
+      "parent": "costco18_margin"
+    },
+    "costco16_imported_annual_margin__opaque_ids": {
+      "category": "opaque_ids",
+      "parent": "costco16_imported_annual_margin"
+    },
+    "target20_margin__row_order": {
+      "category": "row_order",
+      "parent": "target20_margin"
+    },
+    "costco18_growth__opaque_ids": {
+      "category": "opaque_ids",
+      "parent": "costco18_growth"
+    },
+    "costco15_imported_annual_margin__row_order": {
+      "category": "row_order",
+      "parent": "costco15_imported_annual_margin"
+    },
+    "target20_sales_margin__opaque_ids": {
+      "category": "opaque_ids",
+      "parent": "target20_sales_margin"
+    },
+    "dev_9c0165df7226__row_order": {
+      "category": "row_order",
+      "parent": "dev_9c0165df7226"
+    },
+    "costco16_imported_growth__opaque_ids": {
+      "category": "opaque_ids",
+      "parent": "costco16_imported_growth"
+    },
+    "target19_margin__row_order": {
+      "category": "row_order",
+      "parent": "target19_margin"
+    },
+    "dev_edfdd2350a46__opaque_ids": {
+      "category": "opaque_ids",
+      "parent": "dev_edfdd2350a46"
+    },
+    "costco16_imported_sales_margin__row_order": {
+      "category": "row_order",
+      "parent": "costco16_imported_sales_margin"
+    },
+    "target20_growth__opaque_ids": {
+      "category": "opaque_ids",
+      "parent": "target20_growth"
+    },
+    "dev_ca6678610d46__row_order": {
+      "category": "row_order",
+      "parent": "dev_ca6678610d46"
+    },
+    "costco16_imported_quarter_margin__opaque_ids": {
+      "category": "opaque_ids",
+      "parent": "costco16_imported_quarter_margin"
+    },
+    "target20_growth_sales__row_order": {
+      "category": "row_order",
+      "parent": "target20_growth_sales"
+    },
+    "dev_ca52f44ebbc3__opaque_ids": {
+      "category": "opaque_ids",
+      "parent": "dev_ca52f44ebbc3"
+    },
+    "dev_4caaef22d81e__row_order": {
+      "category": "row_order",
+      "parent": "dev_4caaef22d81e"
+    },
+    "dev_40b371d26b07__opaque_ids": {
+      "category": "opaque_ids",
+      "parent": "dev_40b371d26b07"
+    },
+    "dev_7603c926312a__row_order": {
+      "category": "row_order",
+      "parent": "dev_7603c926312a"
+    },
+    "dev_3a589e206286__opaque_ids": {
+      "category": "opaque_ids",
+      "parent": "dev_3a589e206286"
+    }
+  },
+  "total": 50,
+  "unique_calculations": 30,
+  "source_groups": 3,
+  "robustness_variants": 20,
+  "note": "Authored development cases. Variants share evidence with their parents; not 50 independent financial reports. Existing source-review status is unchanged."
+}

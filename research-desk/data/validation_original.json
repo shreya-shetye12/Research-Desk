@@ -1,0 +1,1574 @@
+[
+  {
+    "id": "target20_margin",
+    "company": "Target",
+    "report": "target_separate_sales_total_revenue",
+    "group": "target_2018_2020",
+    "split": "validation",
+    "task": "operating_margin",
+    "question": "Calculate FY2020 operating margin using total revenue.",
+    "cells": [
+      {
+        "id": "target_2020_sales",
+        "company": "Target",
+        "period": 2020,
+        "label": "Sales",
+        "value": 92400,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2020_revenue",
+        "company": "Target",
+        "period": 2020,
+        "label": "Total revenue",
+        "value": 93561,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2020_oi",
+        "company": "Target",
+        "period": 2020,
+        "label": "Operating income",
+        "value": 6539,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2019_sales",
+        "company": "Target",
+        "period": 2019,
+        "label": "Sales",
+        "value": 77130,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2019_revenue",
+        "company": "Target",
+        "period": 2019,
+        "label": "Total revenue",
+        "value": 78112,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2019_oi",
+        "company": "Target",
+        "period": 2019,
+        "label": "Operating income",
+        "value": 4658,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2018_sales",
+        "company": "Target",
+        "period": 2018,
+        "label": "Sales",
+        "value": 74433,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "target_2018_revenue",
+        "company": "Target",
+        "period": 2018,
+        "label": "Total revenue",
+        "value": 75356,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "target_2018_oi",
+        "company": "Target",
+        "period": 2018,
+        "label": "Operating income",
+        "value": 4110,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      }
+    ],
+    "notes": "Sales and Other revenue are separate; Total revenue includes both. FY2020, FY2019 and FY2018 have 52 weeks. Prepared excerpt from Five Year Financial Summary.",
+    "revenue_basis": "total_revenue",
+    "period": 2020,
+    "prior_period": null,
+    "source_review": "machine-cross-checked; human review pending"
+  },
+  {
+    "id": "target20_sales_margin",
+    "company": "Target",
+    "report": "target_separate_sales_total_revenue",
+    "group": "target_2018_2020",
+    "split": "validation",
+    "task": "operating_margin",
+    "question": "Calculate FY2020 operating margin using Sales only, excluding other revenue.",
+    "cells": [
+      {
+        "id": "target_2020_sales",
+        "company": "Target",
+        "period": 2020,
+        "label": "Sales",
+        "value": 92400,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2020_revenue",
+        "company": "Target",
+        "period": 2020,
+        "label": "Total revenue",
+        "value": 93561,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2020_oi",
+        "company": "Target",
+        "period": 2020,
+        "label": "Operating income",
+        "value": 6539,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2019_sales",
+        "company": "Target",
+        "period": 2019,
+        "label": "Sales",
+        "value": 77130,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2019_revenue",
+        "company": "Target",
+        "period": 2019,
+        "label": "Total revenue",
+        "value": 78112,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2019_oi",
+        "company": "Target",
+        "period": 2019,
+        "label": "Operating income",
+        "value": 4658,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2018_sales",
+        "company": "Target",
+        "period": 2018,
+        "label": "Sales",
+        "value": 74433,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "target_2018_revenue",
+        "company": "Target",
+        "period": 2018,
+        "label": "Total revenue",
+        "value": 75356,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "target_2018_oi",
+        "company": "Target",
+        "period": 2018,
+        "label": "Operating income",
+        "value": 4110,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      }
+    ],
+    "notes": "Sales and Other revenue are separate; Total revenue includes both. FY2020, FY2019 and FY2018 have 52 weeks. Prepared excerpt from Five Year Financial Summary.",
+    "revenue_basis": "sales",
+    "period": 2020,
+    "prior_period": null,
+    "source_review": "machine-cross-checked; human review pending"
+  },
+  {
+    "id": "target19_margin",
+    "company": "Target",
+    "report": "target_separate_sales_total_revenue",
+    "group": "target_2018_2020",
+    "split": "validation",
+    "task": "operating_margin",
+    "question": "Calculate FY2019 operating margin using total revenue.",
+    "cells": [
+      {
+        "id": "target_2020_sales",
+        "company": "Target",
+        "period": 2020,
+        "label": "Sales",
+        "value": 92400,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2020_revenue",
+        "company": "Target",
+        "period": 2020,
+        "label": "Total revenue",
+        "value": 93561,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2020_oi",
+        "company": "Target",
+        "period": 2020,
+        "label": "Operating income",
+        "value": 6539,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2019_sales",
+        "company": "Target",
+        "period": 2019,
+        "label": "Sales",
+        "value": 77130,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2019_revenue",
+        "company": "Target",
+        "period": 2019,
+        "label": "Total revenue",
+        "value": 78112,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2019_oi",
+        "company": "Target",
+        "period": 2019,
+        "label": "Operating income",
+        "value": 4658,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2018_sales",
+        "company": "Target",
+        "period": 2018,
+        "label": "Sales",
+        "value": 74433,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "target_2018_revenue",
+        "company": "Target",
+        "period": 2018,
+        "label": "Total revenue",
+        "value": 75356,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "target_2018_oi",
+        "company": "Target",
+        "period": 2018,
+        "label": "Operating income",
+        "value": 4110,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      }
+    ],
+    "notes": "Sales and Other revenue are separate; Total revenue includes both. FY2020, FY2019 and FY2018 have 52 weeks. Prepared excerpt from Five Year Financial Summary.",
+    "revenue_basis": "total_revenue",
+    "period": 2019,
+    "prior_period": null,
+    "source_review": "machine-cross-checked; human review pending"
+  },
+  {
+    "id": "target20_growth",
+    "company": "Target",
+    "report": "target_separate_sales_total_revenue",
+    "group": "target_2018_2020",
+    "split": "validation",
+    "task": "revenue_growth",
+    "question": "Calculate reported FY2020 total revenue growth over FY2019.",
+    "cells": [
+      {
+        "id": "target_2020_sales",
+        "company": "Target",
+        "period": 2020,
+        "label": "Sales",
+        "value": 92400,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2020_revenue",
+        "company": "Target",
+        "period": 2020,
+        "label": "Total revenue",
+        "value": 93561,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2020_oi",
+        "company": "Target",
+        "period": 2020,
+        "label": "Operating income",
+        "value": 6539,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2019_sales",
+        "company": "Target",
+        "period": 2019,
+        "label": "Sales",
+        "value": 77130,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2019_revenue",
+        "company": "Target",
+        "period": 2019,
+        "label": "Total revenue",
+        "value": 78112,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2019_oi",
+        "company": "Target",
+        "period": 2019,
+        "label": "Operating income",
+        "value": 4658,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2018_sales",
+        "company": "Target",
+        "period": 2018,
+        "label": "Sales",
+        "value": 74433,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "target_2018_revenue",
+        "company": "Target",
+        "period": 2018,
+        "label": "Total revenue",
+        "value": 75356,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "target_2018_oi",
+        "company": "Target",
+        "period": 2018,
+        "label": "Operating income",
+        "value": 4110,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      }
+    ],
+    "notes": "Sales and Other revenue are separate; Total revenue includes both. FY2020, FY2019 and FY2018 have 52 weeks. Prepared excerpt from Five Year Financial Summary.",
+    "revenue_basis": "total_revenue",
+    "period": 2020,
+    "prior_period": 2019,
+    "source_review": "machine-cross-checked; human review pending"
+  },
+  {
+    "id": "target20_growth_sales",
+    "company": "Target",
+    "report": "target_separate_sales_total_revenue",
+    "group": "target_2018_2020",
+    "split": "validation",
+    "task": "revenue_growth",
+    "question": "Calculate reported FY2020 Sales only, excluding other revenue growth over FY2019.",
+    "cells": [
+      {
+        "id": "target_2020_sales",
+        "company": "Target",
+        "period": 2020,
+        "label": "Sales",
+        "value": 92400,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2020_revenue",
+        "company": "Target",
+        "period": 2020,
+        "label": "Total revenue",
+        "value": 93561,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2020_oi",
+        "company": "Target",
+        "period": 2020,
+        "label": "Operating income",
+        "value": 6539,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2020 column"
+      },
+      {
+        "id": "target_2019_sales",
+        "company": "Target",
+        "period": 2019,
+        "label": "Sales",
+        "value": 77130,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2019_revenue",
+        "company": "Target",
+        "period": 2019,
+        "label": "Total revenue",
+        "value": 78112,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2019_oi",
+        "company": "Target",
+        "period": 2019,
+        "label": "Operating income",
+        "value": 4658,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2019 column"
+      },
+      {
+        "id": "target_2018_sales",
+        "company": "Target",
+        "period": 2018,
+        "label": "Sales",
+        "value": 74433,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "target_2018_revenue",
+        "company": "Target",
+        "period": 2018,
+        "label": "Total revenue",
+        "value": 75356,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "target_2018_oi",
+        "company": "Target",
+        "period": 2018,
+        "label": "Operating income",
+        "value": 4110,
+        "unit": "USD millions",
+        "source": "https://corporate.target.com/investors/annual/2020-annual-report/financials/five-year-financial-summary",
+        "location": "Annual income/operations figures, FY2018 column"
+      }
+    ],
+    "notes": "Sales and Other revenue are separate; Total revenue includes both. FY2020, FY2019 and FY2018 have 52 weeks. Prepared excerpt from Five Year Financial Summary.",
+    "revenue_basis": "sales",
+    "period": 2020,
+    "prior_period": 2019,
+    "source_review": "machine-cross-checked; human review pending"
+  },
+  {
+    "id": "costco18_margin",
+    "company": "Costco",
+    "report": "costco_net_sales_plus_fees",
+    "group": "costco_2018",
+    "split": "validation",
+    "task": "operating_margin",
+    "question": "Calculate FY2018 operating margin using total revenue.",
+    "cells": [
+      {
+        "id": "costco_2018_sales",
+        "company": "Costco",
+        "period": 2018,
+        "label": "Net sales",
+        "value": 138434,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "costco_2018_revenue",
+        "company": "Costco",
+        "period": 2018,
+        "label": "Total revenue",
+        "value": 141576,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "costco_2018_oi",
+        "company": "Costco",
+        "period": 2018,
+        "label": "Operating income",
+        "value": 4480,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "costco_2017_sales",
+        "company": "Costco",
+        "period": 2017,
+        "label": "Net sales",
+        "value": 126172,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2017 column"
+      },
+      {
+        "id": "costco_2017_revenue",
+        "company": "Costco",
+        "period": 2017,
+        "label": "Total revenue",
+        "value": 129025,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2017 column"
+      },
+      {
+        "id": "costco_2017_oi",
+        "company": "Costco",
+        "period": 2017,
+        "label": "Operating income",
+        "value": 4111,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2017 column"
+      }
+    ],
+    "notes": "Net sales exclude separately reported membership fees. Total revenue includes membership fees. FY2018 has 52 weeks; FY2017 has 53. Reported growth is not week-adjusted.",
+    "revenue_basis": "total_revenue",
+    "period": 2018,
+    "prior_period": null,
+    "source_review": "machine-cross-checked; human review pending"
+  },
+  {
+    "id": "costco18_growth",
+    "company": "Costco",
+    "report": "costco_net_sales_plus_fees",
+    "group": "costco_2018",
+    "split": "validation",
+    "task": "revenue_growth",
+    "question": "Calculate reported FY2018 net sales, excluding membership fees growth over FY2017.",
+    "cells": [
+      {
+        "id": "costco_2018_sales",
+        "company": "Costco",
+        "period": 2018,
+        "label": "Net sales",
+        "value": 138434,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "costco_2018_revenue",
+        "company": "Costco",
+        "period": 2018,
+        "label": "Total revenue",
+        "value": 141576,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "costco_2018_oi",
+        "company": "Costco",
+        "period": 2018,
+        "label": "Operating income",
+        "value": 4480,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2018 column"
+      },
+      {
+        "id": "costco_2017_sales",
+        "company": "Costco",
+        "period": 2017,
+        "label": "Net sales",
+        "value": 126172,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2017 column"
+      },
+      {
+        "id": "costco_2017_revenue",
+        "company": "Costco",
+        "period": 2017,
+        "label": "Total revenue",
+        "value": 129025,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2017 column"
+      },
+      {
+        "id": "costco_2017_oi",
+        "company": "Costco",
+        "period": 2017,
+        "label": "Operating income",
+        "value": 4111,
+        "unit": "USD millions",
+        "source": "https://investor.costco.com/news/news-details/2018/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2018-Operating-Results-10-04-2018/default.aspx",
+        "location": "Annual income/operations figures, FY2017 column"
+      }
+    ],
+    "notes": "Net sales exclude separately reported membership fees. Total revenue includes membership fees. FY2018 has 52 weeks; FY2017 has 53. Reported growth is not week-adjusted.",
+    "revenue_basis": "sales",
+    "period": 2018,
+    "prior_period": 2017,
+    "source_review": "machine-cross-checked; human review pending"
+  },
+  {
+    "company": "Costco",
+    "report": "costco_net_sales_plus_fees",
+    "group": "document_95fd80bd6614164c19",
+    "split": "validation",
+    "cells": [
+      {
+        "id": "document_95fd80bd6614164c19_cell_0",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Operating income",
+        "value": 3672,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_1",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Total revenue",
+        "value": 118719,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_2",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Operating income",
+        "value": 1191,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_3",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Total revenue",
+        "value": 36560,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_4",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Operating income",
+        "value": 3624,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_5",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Total revenue",
+        "value": 116199,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_6",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Operating income",
+        "value": 1156,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_7",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Total revenue",
+        "value": 35778,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_8",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Net sales",
+        "value": 116073,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_9",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Net sales",
+        "value": 113666,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_10",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Net sales",
+        "value": 35728,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_11",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Net sales",
+        "value": 34993,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_12",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Membership fees",
+        "value": 2646,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_13",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Membership fees",
+        "value": 2533,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_14",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Membership fees",
+        "value": 832,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_15",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Membership fees",
+        "value": 785,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      }
+    ],
+    "notes": "Amounts are in USD millions. Total revenue includes net sales and separately reported membership fees. The income statement reports 16-week fourth quarters and 52-week full fiscal years separately for FY2016 and FY2015; do not mix those columns.",
+    "source_review": "source cross-checked against original PDF; human acceptance review required",
+    "source_name": "Costco FY2016 annual and quarterly income statement",
+    "source_pack_id": "pack_document_95fd80bd6614164c19",
+    "id": "costco16_imported_annual_margin",
+    "task": "operating_margin",
+    "period": 2016,
+    "prior_period": null,
+    "revenue_basis": "total_revenue",
+    "question": "Calculate full-year FY2016 operating margin using total revenue from the annual and quarterly income statement."
+  },
+  {
+    "company": "Costco",
+    "report": "costco_net_sales_plus_fees",
+    "group": "document_95fd80bd6614164c19",
+    "split": "validation",
+    "cells": [
+      {
+        "id": "document_95fd80bd6614164c19_cell_0",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Operating income",
+        "value": 3672,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_1",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Total revenue",
+        "value": 118719,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_2",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Operating income",
+        "value": 1191,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_3",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Total revenue",
+        "value": 36560,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_4",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Operating income",
+        "value": 3624,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_5",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Total revenue",
+        "value": 116199,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_6",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Operating income",
+        "value": 1156,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_7",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Total revenue",
+        "value": 35778,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_8",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Net sales",
+        "value": 116073,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_9",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Net sales",
+        "value": 113666,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_10",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Net sales",
+        "value": 35728,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_11",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Net sales",
+        "value": 34993,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_12",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Membership fees",
+        "value": 2646,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_13",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Membership fees",
+        "value": 2533,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_14",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Membership fees",
+        "value": 832,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_15",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Membership fees",
+        "value": 785,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      }
+    ],
+    "notes": "Amounts are in USD millions. Total revenue includes net sales and separately reported membership fees. The income statement reports 16-week fourth quarters and 52-week full fiscal years separately for FY2016 and FY2015; do not mix those columns.",
+    "source_review": "source cross-checked against original PDF; human acceptance review required",
+    "source_name": "Costco FY2016 annual and quarterly income statement",
+    "source_pack_id": "pack_document_95fd80bd6614164c19",
+    "id": "costco15_imported_annual_margin",
+    "task": "operating_margin",
+    "period": 2015,
+    "prior_period": null,
+    "revenue_basis": "total_revenue",
+    "question": "Calculate full-year FY2015 operating margin using total revenue from the annual and quarterly income statement."
+  },
+  {
+    "company": "Costco",
+    "report": "costco_net_sales_plus_fees",
+    "group": "document_95fd80bd6614164c19",
+    "split": "validation",
+    "cells": [
+      {
+        "id": "document_95fd80bd6614164c19_cell_0",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Operating income",
+        "value": 3672,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_1",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Total revenue",
+        "value": 118719,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_2",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Operating income",
+        "value": 1191,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_3",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Total revenue",
+        "value": 36560,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_4",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Operating income",
+        "value": 3624,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_5",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Total revenue",
+        "value": 116199,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_6",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Operating income",
+        "value": 1156,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_7",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Total revenue",
+        "value": 35778,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_8",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Net sales",
+        "value": 116073,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_9",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Net sales",
+        "value": 113666,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_10",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Net sales",
+        "value": 35728,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_11",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Net sales",
+        "value": 34993,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_12",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Membership fees",
+        "value": 2646,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_13",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Membership fees",
+        "value": 2533,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_14",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Membership fees",
+        "value": 832,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_15",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Membership fees",
+        "value": 785,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      }
+    ],
+    "notes": "Amounts are in USD millions. Total revenue includes net sales and separately reported membership fees. The income statement reports 16-week fourth quarters and 52-week full fiscal years separately for FY2016 and FY2015; do not mix those columns.",
+    "source_review": "source cross-checked against original PDF; human acceptance review required",
+    "source_name": "Costco FY2016 annual and quarterly income statement",
+    "source_pack_id": "pack_document_95fd80bd6614164c19",
+    "id": "costco16_imported_growth",
+    "task": "revenue_growth",
+    "period": 2016,
+    "prior_period": 2015,
+    "revenue_basis": "total_revenue",
+    "question": "Calculate reported full-year FY2016 total revenue growth over full-year FY2015."
+  },
+  {
+    "company": "Costco",
+    "report": "costco_net_sales_plus_fees",
+    "group": "document_95fd80bd6614164c19",
+    "split": "validation",
+    "cells": [
+      {
+        "id": "document_95fd80bd6614164c19_cell_0",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Operating income",
+        "value": 3672,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_1",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Total revenue",
+        "value": 118719,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_2",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Operating income",
+        "value": 1191,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_3",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Total revenue",
+        "value": 36560,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_4",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Operating income",
+        "value": 3624,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_5",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Total revenue",
+        "value": 116199,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_6",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Operating income",
+        "value": 1156,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_7",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Total revenue",
+        "value": 35778,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_8",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Net sales",
+        "value": 116073,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_9",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Net sales",
+        "value": 113666,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_10",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Net sales",
+        "value": 35728,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_11",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Net sales",
+        "value": 34993,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_12",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Membership fees",
+        "value": 2646,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_13",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Membership fees",
+        "value": 2533,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_14",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Membership fees",
+        "value": 832,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_15",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Membership fees",
+        "value": 785,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      }
+    ],
+    "notes": "Amounts are in USD millions. Total revenue includes net sales and separately reported membership fees. The income statement reports 16-week fourth quarters and 52-week full fiscal years separately for FY2016 and FY2015; do not mix those columns.",
+    "source_review": "source cross-checked against original PDF; human acceptance review required",
+    "source_name": "Costco FY2016 annual and quarterly income statement",
+    "source_pack_id": "pack_document_95fd80bd6614164c19",
+    "id": "costco16_imported_sales_margin",
+    "task": "operating_margin",
+    "period": 2016,
+    "prior_period": null,
+    "revenue_basis": "sales",
+    "question": "Calculate full-year FY2016 operating margin using net sales, excluding membership fees."
+  },
+  {
+    "company": "Costco",
+    "report": "costco_net_sales_plus_fees",
+    "group": "document_95fd80bd6614164c19",
+    "split": "validation",
+    "cells": [
+      {
+        "id": "document_95fd80bd6614164c19_cell_0",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Operating income",
+        "value": 3672,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_1",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Total revenue",
+        "value": 118719,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_2",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Operating income",
+        "value": 1191,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_3",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Total revenue",
+        "value": 36560,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_4",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Operating income",
+        "value": 3624,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_5",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Total revenue",
+        "value": 116199,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_6",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Operating income",
+        "value": 1156,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_7",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Total revenue",
+        "value": 35778,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_8",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Net sales",
+        "value": 116073,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_9",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Net sales",
+        "value": 113666,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_10",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Net sales",
+        "value": 35728,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_11",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Net sales",
+        "value": 34993,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_12",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Membership fees",
+        "value": 2646,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_13",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Membership fees",
+        "value": 2533,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 52 Weeks Ended August 30, 2015"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_14",
+        "company": "Costco",
+        "period": 2016,
+        "label": "Membership fees",
+        "value": 832,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 28, 2016"
+      },
+      {
+        "id": "document_95fd80bd6614164c19_cell_15",
+        "company": "Costco",
+        "period": 2015,
+        "label": "Membership fees",
+        "value": 785,
+        "unit": "USD millions",
+        "source": "https://s201.q4cdn.com/287523651/files/doc_news/2016/09/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-8.pdf",
+        "location": "Pages 1\u20132 / Consolidated Statements of Income / 16 Weeks Ended August 30, 2015"
+      }
+    ],
+    "notes": "Amounts are in USD millions. Total revenue includes net sales and separately reported membership fees. The income statement reports 16-week fourth quarters and 52-week full fiscal years separately for FY2016 and FY2015; do not mix those columns.",
+    "source_review": "source cross-checked against original PDF; human acceptance review required",
+    "source_name": "Costco FY2016 annual and quarterly income statement",
+    "source_pack_id": "pack_document_95fd80bd6614164c19",
+    "id": "costco16_imported_quarter_margin",
+    "task": "operating_margin",
+    "period": 2016,
+    "prior_period": null,
+    "revenue_basis": "total_revenue",
+    "question": "Calculate the fourth-quarter FY2016 operating margin using total revenue for the 16 weeks ended August 28, 2016."
+  }
+]

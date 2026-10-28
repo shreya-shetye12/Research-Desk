@@ -1,0 +1,11 @@
+{
+  "system": "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "python": "3.12.14",
+  "ollama": {
+    "version": "0.34.4"
+  },
+  "software_tests": "82 passed in 2.29s",
+  "dependency_check": "No broken requirements found",
+  "mode": "Actual local Ollama inference; mock-only software tests are separate"
+}

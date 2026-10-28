@@ -1,0 +1,15 @@
+{
+  "software_tests_passed": 82,
+  "software_tests_failed": 0,
+  "suite_rebuild": "byte-identical",
+  "original_app_and_branding": "verified against uploaded ZIP hashes",
+  "learning_and_final_references": "unchanged",
+  "final_model_evaluations": 0,
+  "source_archive_sha256": "f03fd577c0efb79b898e87260c275ff3e495a22b335b26eac9b15079aa90d3f3",
+  "real_cases_completed": 50,
+  "baseline_correct": 34,
+  "reference_rule_correct": 38,
+  "mlflow_traces": 58,
+  "metric_artifacts": "JSON, CSV and MLflow agree",
+  "approved_procedure_records": 0
+}

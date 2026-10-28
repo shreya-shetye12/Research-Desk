@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Research desk turns checked financial-analysis corrections into validated, reusable procedures."
+    />
+    <meta name="theme-color" content="#101317" />
+    <title>Research desk</title>
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/features.js" defer></script>
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <a
+        class="brand"
+        href="#dashboard"
+        data-view="dashboard"
+        aria-label="Research desk home"
+        >Research desk</a
+      >
+      <div class="nav-caption">WORKSPACE</div>
+      <nav aria-label="Main navigation">
+        <button class="nav-item active" data-view="dashboard">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            aria-hidden="true"
+          >
+            <rect x="3" y="3" width="7" height="7" rx="1" />
+            <rect x="14" y="3" width="7" height="7" rx="1" />
+            <rect x="3" y="14" width="7" height="7" rx="1" />
+            <rect x="14" y="14" width="7" height="7" rx="1" /></svg
+          >Dashboard
+        </button>
+        <button class="nav-item" data-view="research">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            aria-hidden="true"
+          >
+            <circle cx="10.5" cy="10.5" r="6.5" />
+            <path d="m16 16 5 5" /></svg
+          >Research
+        </button>
+        <button class="nav-item" data-view="memory">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            aria-hidden="true"
+          >
+            <path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5" /></svg
+          >Memory
+        </button>
+        <button class="nav-item" data-view="sources">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            aria-hidden="true"
+          >
+            <path d="M14 3H5v18h14V8l-5-5Z M14 3v5h5M8 12h8M8 16h6" /></svg
+          >Sources
+        </button>
+      </nav>
+      <div class="sidebar-bottom">
+        <button class="inspect-button" data-action="inspect">Inspect</button>
+        <div class="local-state" id="local-state">Connecting…</div>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <div>
+          Workspace <span>/</span> <strong id="view-label">Overview</strong>
+        </div>
+        <div class="topbar-right">
+          <span class="local-dot"></span> Local
+          <button
+            class="icon-button"
+            data-action="about"
+            aria-label="About this edition"
+          >
+            i
+          </button>
+        </div>
+      </header>
+      <main id="main">
+        <div class="loading">Opening workspace…</div>
+      </main>
+    </div>
+    <dialog id="dialog" aria-labelledby="dialog-title">
+      <div id="dialog-content"></div>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

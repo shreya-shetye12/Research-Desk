@@ -1,0 +1,116 @@
+1/50 target20_margin [baseline; rule out of scope]
+2026/10/28 14:54:17 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2026/10/28 14:54:17 INFO mlflow.store.db.utils: Updating database tables
+  correctness True -> True
+2/50 target20_sales_margin [baseline; rule out of scope]
+  correctness True -> True
+3/50 target19_margin [baseline; rule out of scope]
+  correctness True -> True
+4/50 target20_growth [baseline; rule out of scope]
+  correctness True -> True
+5/50 target20_growth_sales [baseline; rule out of scope]
+  correctness True -> True
+6/50 costco18_margin [reference_rule]
+6/50 costco18_margin [baseline]
+  correctness True -> True
+7/50 costco18_growth [baseline; rule out of scope]
+  correctness True -> True
+8/50 costco16_imported_annual_margin [reference_rule]
+8/50 costco16_imported_annual_margin [baseline]
+  correctness False -> True
+9/50 costco15_imported_annual_margin [baseline]
+9/50 costco15_imported_annual_margin [reference_rule]
+  correctness False -> True
+10/50 costco16_imported_growth [baseline; rule out of scope]
+  correctness True -> True
+11/50 costco16_imported_sales_margin [baseline; rule out of scope]
+  correctness False -> False
+12/50 costco16_imported_quarter_margin [baseline; rule out of scope]
+  correctness True -> True
+13/50 dev_9c0165df7226 [baseline]
+13/50 dev_9c0165df7226 [reference_rule]
+  correctness True -> True
+14/50 dev_edfdd2350a46 [baseline; rule out of scope]
+  correctness True -> True
+15/50 dev_ca6678610d46 [baseline; rule out of scope]
+  correctness True -> True
+16/50 dev_ca52f44ebbc3 [baseline; rule out of scope]
+  correctness True -> True
+17/50 dev_4caaef22d81e [baseline; rule out of scope]
+  correctness False -> False
+18/50 dev_7603c926312a [baseline; rule out of scope]
+  correctness True -> True
+19/50 dev_b621036e1fde [baseline; rule out of scope]
+  correctness True -> True
+20/50 dev_6dd7d9c89399 [baseline; rule out of scope]
+  correctness True -> True
+21/50 dev_0f1a12849ee2 [baseline; rule out of scope]
+  correctness False -> False
+22/50 dev_ef2f9200e05f [baseline; rule out of scope]
+  correctness False -> False
+23/50 dev_1cf846e076ea [baseline; rule out of scope]
+  correctness True -> True
+24/50 dev_40b371d26b07 [baseline; rule out of scope]
+  correctness True -> True
+25/50 dev_3a589e206286 [baseline; rule out of scope]
+  correctness True -> True
+26/50 dev_083390766409 [baseline; rule out of scope]
+  correctness True -> True
+27/50 dev_8bc6cea67352 [baseline; rule out of scope]
+  correctness True -> True
+28/50 dev_87fbb843285e [baseline; rule out of scope]
+  correctness True -> True
+29/50 dev_e114e459833b [baseline; rule out of scope]
+  correctness True -> True
+30/50 dev_2626083d5b7b [baseline; rule out of scope]
+  correctness True -> True
+31/50 costco18_margin__row_order [baseline]
+31/50 costco18_margin__row_order [reference_rule]
+  correctness True -> True
+32/50 costco16_imported_annual_margin__opaque_ids [reference_rule]
+32/50 costco16_imported_annual_margin__opaque_ids [baseline]
+  correctness False -> True
+33/50 target20_margin__row_order [baseline; rule out of scope]
+  correctness True -> True
+34/50 costco18_growth__opaque_ids [baseline; rule out of scope]
+  correctness False -> False
+35/50 costco15_imported_annual_margin__row_order [baseline]
+35/50 costco15_imported_annual_margin__row_order [reference_rule]
+  correctness False -> True
+36/50 target20_sales_margin__opaque_ids [baseline; rule out of scope]
+  correctness False -> False
+37/50 dev_9c0165df7226__row_order [baseline]
+37/50 dev_9c0165df7226__row_order [reference_rule]
+  correctness True -> True
+38/50 costco16_imported_growth__opaque_ids [baseline; rule out of scope]
+  correctness False -> False
+39/50 target19_margin__row_order [baseline; rule out of scope]
+  correctness True -> True
+40/50 dev_edfdd2350a46__opaque_ids [baseline; rule out of scope]
+  correctness False -> False
+41/50 costco16_imported_sales_margin__row_order [baseline; rule out of scope]
+  correctness False -> False
+42/50 target20_growth__opaque_ids [baseline; rule out of scope]
+  correctness False -> False
+43/50 dev_ca6678610d46__row_order [baseline; rule out of scope]
+  correctness True -> True
+44/50 costco16_imported_quarter_margin__opaque_ids [baseline; rule out of scope]
+  correctness False -> False
+45/50 target20_growth_sales__row_order [baseline; rule out of scope]
+  correctness True -> True
+46/50 dev_ca52f44ebbc3__opaque_ids [baseline; rule out of scope]
+  correctness True -> True
+47/50 dev_4caaef22d81e__row_order [baseline; rule out of scope]
+  correctness False -> False
+48/50 dev_40b371d26b07__opaque_ids [baseline; rule out of scope]
+  correctness True -> True
+49/50 dev_7603c926312a__row_order [baseline; rule out of scope]
+  correctness True -> True
+50/50 dev_3a589e206286__opaque_ids [baseline; rule out of scope]
+  correctness True -> True
+{
+  "baseline": 34,
+  "reference_rule": 38,
+  "cases": 50
+}
+2026/10/28 15:21:05 INFO mlflow.tracing.export.async_export_queue: Flushing the async trace logging queue before program exit. This may take a while...

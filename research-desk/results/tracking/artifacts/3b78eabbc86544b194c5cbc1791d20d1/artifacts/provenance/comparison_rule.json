@@ -1,0 +1,28 @@
+{
+  "provenance": {
+    "kind": "evaluation_only_reference_rule",
+    "learning_case": "costco24_margin_total",
+    "source_group": "costco_2024",
+    "human_approved": false,
+    "note": "Constructed from learning evidence only. Never stored or activated as an accepted application procedure; no earlier generated code or historical runtime artifact imported."
+  },
+  "rule": {
+    "id": "eval_costco_annual_total_margin",
+    "version": 1,
+    "company": "Costco",
+    "report": "costco_net_sales_plus_fees",
+    "task": "operating_margin",
+    "procedure": "For an annual total-revenue operating margin, copy the source ID for Operating income first and Total revenue second from the requested annual reporting period. Divide the first figure by the second and convert to percent.",
+    "conditions": [
+      "Same company, reporting convention, annual period and total-revenue basis."
+    ],
+    "exclusions": "Exclude quarterly calculations, sales-basis margins and revenue growth.",
+    "binding": {
+      "kind": "source_label_binding",
+      "first_label": "Operating income",
+      "second_label": "Total revenue",
+      "period_kind": "annual",
+      "revenue_basis": "total_revenue"
+    }
+  }
+}
