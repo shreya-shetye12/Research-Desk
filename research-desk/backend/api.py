@@ -21,7 +21,7 @@ async def lifespan(app):
 
 
 app = FastAPI(
-    title="ResearchDesk",
+    title="Research Desk",
     version="1.0.0",
     lifespan=lifespan,
     docs_url=None,
@@ -247,7 +247,7 @@ def memo(identifier: str):
         "unreviewed",
     )
     lines = [
-        "# SHIFT + APPRENTICE",
+        "# Research Desk",
         c["question"],
         "",
         f"Status: {r['status']} · Human review: {review}",
@@ -275,7 +275,7 @@ def memo(identifier: str):
     return PlainTextResponse(
         "\n\n".join(lines),
         headers={
-            "Content-Disposition": f'attachment; filename="shift-{identifier}.md"'
+            "Content-Disposition": f'attachment; filename="research-desk-{identifier}.md"'
         },
     )
 
