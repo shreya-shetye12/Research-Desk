@@ -18,9 +18,9 @@ def setup():
     with _LOCK:
         if not _READY:
             mlflow.set_tracking_uri("sqlite:///" + str(RUNTIME / "mlflow.db"))
-            if mlflow.get_experiment_by_name('SHIFT hackathon learning') is None:
-                mlflow.create_experiment('SHIFT hackathon learning',artifact_location=str(RUNTIME/'artifacts'))
-            mlflow.set_experiment("SHIFT hackathon learning")
+            if mlflow.get_experiment_by_name('Research Desk evaluation') is None:
+                mlflow.create_experiment('Research Desk evaluation',artifact_location=str(RUNTIME/'artifacts'))
+            mlflow.set_experiment("Research Desk evaluation")
             _READY = True
     return mlflow
 
