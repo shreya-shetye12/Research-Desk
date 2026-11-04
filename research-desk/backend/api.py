@@ -21,7 +21,7 @@ async def lifespan(app):
 
 
 app = FastAPI(
-    title="SHIFT + APPRENTICE — Hackathon edition",
+    title="ResearchDesk",
     version="1.0.0",
     lifespan=lifespan,
     docs_url=None,
