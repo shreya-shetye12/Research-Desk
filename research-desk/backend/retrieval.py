@@ -60,7 +60,7 @@ class FinancialRetriever(BaseRetriever):
             try:
                 with LOCK:
                     collection = client().get_or_create_collection(
-                        "financial-evidence-hackathon",
+                        "financial-evidence",
                         metadata={"hnsw:space": "cosine"},
                     )
                     ids = [digest({"text": t, "model": EMBED_MODEL}) for t in texts]
