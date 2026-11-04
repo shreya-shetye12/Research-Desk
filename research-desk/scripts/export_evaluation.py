@@ -18,7 +18,7 @@ def main():
     destination.mkdir(parents=True, exist_ok=True)
     source = ROOT / ".runtime/mlflow.db"
     mlflow.set_tracking_uri("sqlite:///" + str(source))
-    experiment = mlflow.get_experiment_by_name("SHIFT hackathon learning")
+    experiment = mlflow.get_experiment_by_name("Research Desk evaluation")
     traces = mlflow.search_traces(experiment_ids=[experiment.experiment_id], max_results=1000, return_type="list", include_spans=True, flush=True)
     (destination / "traces.json").write_text(json.dumps([trace.to_dict() for trace in traces], indent=2) + "\n")
     with sqlite3.connect(source) as connection, sqlite3.connect(destination / "mlflow.db") as snapshot:
