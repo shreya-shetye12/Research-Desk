@@ -63,7 +63,7 @@ async def invalid(request, error):
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "edition": "hackathon"}
+    return {"status": "ok"}
 
 
 @app.get("/api/state")
